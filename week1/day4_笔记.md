@@ -18,3 +18,4 @@ pathlib是负责解决文件系统路径这一相关问题的工具箱，path是
 报错：FileNotFoundError: [Errno 2] No such file or directory: 'week1\\test_log.txt'
 Python 在告诉你：它在当前的工作目录里，找不到 week1\test_log.txt，也就是路径问题
 解决方法：，用 Path(__file__).resolve().parent 锚定脚本位置，
+pass是一个空语句，相当于“跳过”
