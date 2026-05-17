@@ -1,4 +1,4 @@
-学到了两个报错：unexpected indent和outside function
+学到了两个报错：unexpected indent和outside function\n
 IndentationError: unexpected indent（意外的缩进）
   意思是： Python 在一行代码前面发现了不该出现的空格或 Tab
 SyntaxError: 'return' outside function 或类似（break/continue outside function）
